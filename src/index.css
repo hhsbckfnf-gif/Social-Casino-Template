@@ -38,7 +38,7 @@
 
     --glow-orange: 0 0 30px hsl(28 100% 55% / 0.4);
     --glow-yellow: 0 0 30px hsl(45 100% 55% / 0.3);
-    --gradient-hero: linear-gradient(135deg, hsl(20 10% 5%) 0%, hsl(20 20% 8%) 30%, hsl(28 40% 12%) 60%, hsl(20 10% 5%) 100%);
+    --gradient-hero: linear-gradient(160deg, hsl(20 10% 4%) 0%, hsl(20 30% 8%) 25%, hsl(28 50% 14%) 45%, hsl(30 40% 10%) 65%, hsl(20 15% 6%) 85%, hsl(20 10% 7%) 100%);
     --gradient-card: linear-gradient(145deg, hsl(20 12% 12%) 0%, hsl(20 12% 8%) 100%);
     --gradient-cta: linear-gradient(135deg, hsl(28 100% 55%) 0%, hsl(40 100% 50%) 100%);
     --gradient-cta-hover: linear-gradient(135deg, hsl(28 100% 60%) 0%, hsl(45 100% 55%) 100%);
