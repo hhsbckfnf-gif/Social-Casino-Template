@@ -29,35 +29,62 @@ const Index = () => {
   return (
     <>
       {/* HERO */}
-      <section className="relative overflow-hidden gradient-hero">
+      <section className="relative overflow-hidden gradient-hero min-h-[85vh] flex items-center">
         <div className="hero-glow absolute inset-0" />
-        {/* Decorative glow orbs */}
-        <div className="absolute top-1/4 right-1/4 w-96 h-96 rounded-full bg-primary/5 blur-[120px]" />
-        <div className="absolute bottom-0 left-1/3 w-80 h-80 rounded-full bg-secondary/5 blur-[100px]" />
 
-        <div className="container relative mx-auto px-4 py-16 lg:py-24">
-          <div className="flex flex-col-reverse items-center gap-10 lg:flex-row lg:gap-16">
+        {/* Animated particles */}
+        <div className="hero-particles">
+          {[...Array(12)].map((_, i) => (
+            <span
+              key={i}
+              className="bg-primary/30"
+              style={{
+                left: `${8 + i * 8}%`,
+                width: `${2 + (i % 3) * 2}px`,
+                height: `${2 + (i % 3) * 2}px`,
+                animationDuration: `${6 + (i % 5) * 2}s`,
+                animationDelay: `${i * 0.7}s`,
+              }}
+            />
+          ))}
+        </div>
+
+        {/* Glow streaks */}
+        <div className="hero-streak top-[20%] left-[10%]" style={{ animationDelay: '0s' }} />
+        <div className="hero-streak top-[50%] left-[30%]" style={{ animationDelay: '3s', width: '300px' }} />
+        <div className="hero-streak top-[70%] left-[60%]" style={{ animationDelay: '5s', width: '150px' }} />
+
+        {/* Large glow orbs for depth */}
+        <div className="absolute top-[10%] right-[20%] w-[500px] h-[500px] rounded-full bg-primary/8 blur-[150px]" />
+        <div className="absolute bottom-[5%] left-[15%] w-[400px] h-[400px] rounded-full bg-secondary/6 blur-[130px]" />
+        <div className="absolute top-[40%] left-[50%] w-[300px] h-[300px] rounded-full bg-accent/5 blur-[100px]" />
+
+        <div className="container relative z-10 mx-auto px-4 py-20 lg:py-28">
+          <div className="flex flex-col-reverse items-center gap-8 lg:flex-row lg:gap-8 lg:items-center">
             {/* Left */}
             <div className="flex-1 text-center lg:text-left">
-              <h1 className="text-4xl font-display font-bold leading-tight text-foreground sm:text-5xl lg:text-6xl">
-                Play Free{" "}
-                <span className="text-gradient">Social Casino</span>{" "}
-                Games
-              </h1>
-              <p className="mt-4 max-w-lg text-lg text-muted-foreground leading-relaxed mx-auto lg:mx-0">
+              <div className="relative inline-block">
+                <div className="absolute -inset-x-8 -inset-y-4 bg-primary/5 blur-[60px] rounded-full" />
+                <h1 className="relative text-4xl font-display font-extrabold leading-[1.1] text-foreground sm:text-5xl lg:text-6xl xl:text-7xl glow-text">
+                  Play Free{" "}
+                  <span className="text-gradient">Social Casino</span>{" "}
+                  Games
+                </h1>
+              </div>
+              <p className="mt-6 max-w-xl text-lg text-muted-foreground leading-relaxed mx-auto lg:mx-0 sm:text-xl">
                 Enjoy premium casino-style games for entertainment only. No real money gambling. 100% free to play.
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center lg:justify-start">
                 <Link
                   to="/games"
-                  className="rounded-xl gradient-cta px-8 py-3.5 text-center font-bold text-secondary-foreground transition-all hover:scale-105 hover:shadow-[0_0_30px_hsl(28_100%_55%/0.5)] animate-glow-pulse"
+                  className="rounded-xl gradient-cta px-10 py-4 text-center text-lg font-bold text-secondary-foreground transition-all hover:scale-105 hover:shadow-[0_0_40px_hsl(28_100%_55%/0.6)] animate-glow-pulse"
                 >
                   Play Free Now
                 </Link>
                 <Link
                   to="/games"
-                  className="rounded-xl border border-primary/30 bg-primary/5 px-8 py-3.5 text-center font-semibold text-primary transition-all hover:bg-primary/10 hover:border-primary/50"
+                  className="rounded-xl border-2 border-primary/40 bg-primary/5 px-10 py-4 text-center text-lg font-semibold text-primary transition-all hover:bg-primary/10 hover:border-primary/60 hover:shadow-[0_0_20px_hsl(28_100%_55%/0.2)]"
                 >
                   Browse Games
                 </Link>
@@ -68,9 +95,9 @@ const Index = () => {
                 {trustBadges.map((badge) => (
                   <div
                     key={badge.label}
-                    className="flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-2 text-xs font-medium text-primary"
+                    className="flex items-center gap-2 rounded-full border border-primary/25 bg-primary/8 px-5 py-2.5 text-xs font-semibold text-primary backdrop-blur-sm shadow-[0_0_15px_hsl(28_100%_55%/0.1)]"
                   >
-                    <badge.icon className="h-3.5 w-3.5" />
+                    <badge.icon className="h-4 w-4" />
                     {badge.label}
                   </div>
                 ))}
@@ -78,14 +105,21 @@ const Index = () => {
             </div>
 
             {/* Right - Fox */}
-            <div className="relative flex-shrink-0">
-              <div className="absolute inset-0 rounded-full bg-primary/10 blur-[60px] scale-75" />
+            <div className="relative flex-shrink-0 lg:flex-shrink-0">
+              {/* Multi-layered glow behind fox */}
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] rounded-full bg-primary/15 blur-[80px]" />
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] h-[90%] rounded-full bg-secondary/10 blur-[60px]" />
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60%] h-[60%] rounded-full bg-accent/12 blur-[40px]" />
+
               <img
                 src={foxMascot}
                 alt="FoxPlay Mascot"
-                className="relative z-10 w-64 drop-shadow-[0_20px_40px_rgba(0,0,0,0.5)] sm:w-72 lg:w-80 animate-float"
+                className="relative z-10 w-72 sm:w-80 md:w-96 lg:w-[420px] xl:w-[460px] drop-shadow-[0_10px_30px_rgba(200,100,0,0.3)] drop-shadow-[0_30px_60px_rgba(0,0,0,0.6)] animate-float"
               />
-              <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-3/4 h-6 rounded-full bg-black/30 blur-xl" />
+              {/* Ground shadow */}
+              <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-[70%] h-8 rounded-[50%] bg-black/40 blur-2xl" />
+              {/* Glow ring at base */}
+              <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-[50%] h-4 rounded-[50%] bg-primary/20 blur-xl" />
             </div>
           </div>
         </div>

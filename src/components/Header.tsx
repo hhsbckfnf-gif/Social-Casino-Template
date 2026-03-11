@@ -16,11 +16,11 @@ const Header = () => {
   const location = useLocation();
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border/50 bg-background/90 backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-primary/10 bg-background/80 backdrop-blur-2xl shadow-[0_4px_30px_rgba(0,0,0,0.3)]">
       <div className="container mx-auto flex items-center justify-between px-4 py-3 lg:py-4">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-2">
-          <span className="text-2xl font-display font-bold text-gradient">🦊 FoxPlay</span>
+        <Link to="/" className="flex items-center gap-2 group">
+          <span className="text-2xl font-display font-extrabold text-gradient drop-shadow-[0_0_10px_hsl(28_100%_55%/0.3)] group-hover:drop-shadow-[0_0_15px_hsl(28_100%_55%/0.5)] transition-all">🦊 FoxPlay</span>
         </Link>
 
         {/* Desktop Nav */}
