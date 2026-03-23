@@ -114,7 +114,7 @@ const Index = () => {
               <img
                 src={foxMascot}
                 alt="FoxPlay Mascot"
-                className="relative z-10 w-72 sm:w-80 md:w-96 lg:w-[420px] xl:w-[460px] drop-shadow-[0_10px_30px_rgba(200,100,0,0.3)] drop-shadow-[0_30px_60px_rgba(0,0,0,0.6)] animate-float"
+                className="relative z-10 w-72 sm:w-80 md:w-96 lg:w-[420px] xl:w-[460px] drop-shadow-[0_10px_30px_rgba(200,100,0,0.3)] drop-shadow-[0_30px_60px_rgba(0,0,0,0.6)]"
               />
               {/* Ground shadow */}
               <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-[70%] h-8 rounded-[50%] bg-black/40 blur-2xl" />
