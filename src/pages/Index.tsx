@@ -113,7 +113,7 @@ const Index = () => {
 
               <img
                 src={foxMascot}
-                alt="FoxPlay Mascot"
+                alt="PriceLyxo Mascot"
                 className="relative z-10 w-72 sm:w-80 md:w-96 lg:w-[420px] xl:w-[460px] drop-shadow-[0_10px_30px_rgba(200,100,0,0.3)] drop-shadow-[0_30px_60px_rgba(0,0,0,0.6)]"
               />
               {/* Ground shadow */}
