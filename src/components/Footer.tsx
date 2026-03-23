@@ -7,7 +7,7 @@ const Footer = () => (
     <div className="container mx-auto px-4 py-12">
       <div className="grid gap-8 md:grid-cols-3 lg:grid-cols-4">
         <div>
-          <span className="text-xl font-display font-bold text-gradient">🦊 FoxPlay</span>
+          <span className="text-xl font-display font-bold text-gradient"><span className="text-xl font-display font-bold text-gradient">🦊 PriceLyxo</span></span>
           <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
             Premium social casino entertainment. 100% free to play. No real money gambling. 18+ only.
           </p>
