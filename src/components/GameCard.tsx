@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import type { Game } from "@/data/games";
 
 interface GameCardProps {
@@ -16,14 +17,12 @@ const GameCard = ({ game, showPlayButton = false }: GameCardProps) => (
       />
       {/* Hover overlay */}
       <div className="game-card-overlay flex items-center justify-center">
-        <a
-          href={game.url}
-          target="_blank"
-          rel="noopener noreferrer"
+        <Link
+          to={`/play/${game.id}`}
           className="rounded-lg gradient-cta px-6 py-3 text-sm font-bold text-secondary-foreground transition-all hover:scale-110 hover:shadow-[0_0_30px_hsl(28_100%_55%/0.6)]"
         >
           Play Now
-        </a>
+        </Link>
       </div>
     </div>
     <div className="p-4">
@@ -31,14 +30,12 @@ const GameCard = ({ game, showPlayButton = false }: GameCardProps) => (
       <h3 className="mt-1 font-display font-semibold text-foreground">{game.title}</h3>
       <p className="mt-1 text-xs text-muted-foreground line-clamp-2">{game.description}</p>
       {showPlayButton && (
-        <a
-          href={game.url}
-          target="_blank"
-          rel="noopener noreferrer"
+        <Link
+          to={`/play/${game.id}`}
           className="mt-3 inline-flex w-full items-center justify-center rounded-lg gradient-cta px-4 py-2 text-sm font-semibold text-secondary-foreground transition-all hover:scale-[1.02] hover:shadow-[0_0_20px_hsl(28_100%_55%/0.4)]"
         >
           Play Now
-        </a>
+        </Link>
       )}
     </div>
   </div>
