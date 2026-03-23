@@ -214,7 +214,7 @@ const Index = () => {
             Responsible <span className="text-gradient">Gaming</span>
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground leading-relaxed">
-            FoxPlay is a social casino entertainment platform for users aged 18 and over. This is not real money gambling. There are no prizes or items of real-world value. Virtual coins and credits are for entertainment purposes only and cannot be exchanged for real money. entertainment platform for users aged 18 and over. This is not real money gambling. There are no prizes or items of real-world value. Virtual coins and credits are for entertainment purposes only and cannot be exchanged for real money.
+            PriceLyxo is a social casino entertainment platform for users aged 18 and over. This is not real money gambling. There are no prizes or items of real-world value. Virtual coins and credits are for entertainment purposes only and cannot be exchanged for real money. for users aged 18 and over. This is not real money gambling. There are no prizes or items of real-world value. Virtual coins and credits are for entertainment purposes only and cannot be exchanged for real money. entertainment platform for users aged 18 and over. This is not real money gambling. There are no prizes or items of real-world value. Virtual coins and credits are for entertainment purposes only and cannot be exchanged for real money.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-6">
             {["18+ Only", "No Real Money", "Entertainment Only", "No Prizes"].map((text) => (
