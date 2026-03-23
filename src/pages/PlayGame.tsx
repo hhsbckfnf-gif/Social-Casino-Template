@@ -10,7 +10,7 @@ const PlayGame = () => {
   if (!game) {
     return (
       <div className="flex min-h-screen flex-col items-center justify-center bg-background text-foreground">
-        <h1 className="text-2xl font-display font-bold">Game not found</h1>
+        <h1 className="text-2xl font-display font-bold"><h1 className="text-2xl font-display font-bold">Game not found</h1></h1>
         <Link to="/games" className="mt-4 text-primary underline">
           Back to Games
         </Link>
