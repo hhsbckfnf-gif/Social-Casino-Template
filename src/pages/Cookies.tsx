@@ -9,7 +9,7 @@ const Cookies = () => (
         <p>Cookies are small text files stored on your device when you visit a website. They help us recognize your device, remember your preferences, and understand how you use our website.</p>
 
         <h2 className="text-xl font-display font-semibold text-foreground">2. How We Use Cookies</h2>
-        <p>FoxPlay uses cookies for essential website functionality, performance monitoring and analytics, remembering your preferences and settings, and improving your overall user experience.</p>
+        <p>PriceLyxo uses cookies for essential website functionality, performance monitoring and analytics, remembering your preferences and settings, and improving your overall user experience.</p>
 
         <h2 className="text-xl font-display font-semibold text-foreground">3. Types of Cookies We Use</h2>
         <p><strong className="text-foreground">Essential Cookies:</strong> Required for the website to function properly. These cannot be disabled.</p>

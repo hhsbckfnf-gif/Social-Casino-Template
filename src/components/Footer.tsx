@@ -51,7 +51,7 @@ const Footer = () => (
 
       <div className="mt-10 border-t border-border/50 pt-6 text-center">
         <p className="text-xs text-muted-foreground">
-          © {new Date().getFullYear()} FoxPlay. This website is for entertainment purposes only. No real money gambling. No prizes or items of real-world value. 18+ only. Play responsibly.
+          © {new Date().getFullYear()} © {new Date().getFullYear()} PriceLyxo. This website is for entertainment purposes only. No real money gambling. No prizes or items of real-world value. 18+ only. Play responsibly. is for entertainment purposes only. No real money gambling. No prizes or items of real-world value. 18+ only. Play responsibly.
         </p>
       </div>
     </div>
