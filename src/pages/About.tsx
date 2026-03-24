@@ -16,7 +16,7 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-display font-bold text-foreground lg:text-5xl">
-            About <span className="text-gradient">PriceLyxo</span>
+            About <span className="text-gradient">Trend Lorexa</span>
           </h1>
         </div>
 
@@ -24,12 +24,12 @@ const About = () => {
           <div className="flex flex-col items-center gap-8 lg:flex-row">
             <div className="relative flex-shrink-0">
               <div className="absolute inset-0 rounded-full bg-primary/10 blur-[60px] scale-90" />
-              <img src={foxSlots} alt="PriceLyxo" className="relative z-10 w-48 drop-shadow-[0_10px_30px_rgba(0,0,0,0.5)]" />
+              <img src={foxSlots} alt="Trend Lorexa" className="relative z-10 w-48 drop-shadow-[0_10px_30px_rgba(0,0,0,0.5)]" />
             </div>
             <div>
               <h2 className="text-2xl font-display font-bold text-foreground">Our Story</h2>
               <p className="mt-3 text-muted-foreground leading-relaxed">
-                PriceLyxo was created with one mission: to bring the excitement of casino-style games to everyone — completely free. We believe entertainment should be accessible, safe, and fun. Our platform offers a premium gaming experience without any financial risk.
+                Trend Lorexa was created with one mission: to bring the excitement of casino-style games to everyone — completely free. We believe entertainment should be accessible, safe, and fun. Our platform offers a premium gaming experience without any financial risk.
               </p>
             </div>
           </div>
@@ -44,7 +44,7 @@ const About = () => {
           <div className="rounded-xl border border-border/50 gradient-card p-6">
             <h2 className="text-xl font-display font-bold text-foreground">Responsible Gaming Commitment</h2>
             <p className="mt-3 text-muted-foreground leading-relaxed">
-              PriceLyxo is strictly a social casino. There is no real money gambling, no prizes of real-world value, and no opportunity to win or lose money. We are dedicated to providing a safe, enjoyable entertainment environment for all our users.
+              Trend Lorexa is strictly a social casino. There is no real money gambling, no prizes of real-world value, and no opportunity to win or lose money. We are dedicated to providing a safe, enjoyable entertainment environment for all our users.
             </p>
           </div>
 
