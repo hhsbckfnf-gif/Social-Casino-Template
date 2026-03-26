@@ -20,7 +20,7 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between px-4 py-3 lg:py-4">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 group">
-          <span className="text-2xl font-display font-extrabold text-gradient drop-shadow-[0_0_10px_hsl(28_100%_55%/0.3)] group-hover:drop-shadow-[0_0_15px_hsl(28_100%_55%/0.5)] transition-all"><span className="text-2xl font-display font-extrabold text-gradient drop-shadow-[0_0_10px_hsl(28_100%_55%/0.3)] group-hover:drop-shadow-[0_0_15px_hsl(28_100%_55%/0.5)] transition-all">🦊 VaultGridex</span></span>
+          <span className="text-2xl font-display font-extrabold text-gradient drop-shadow-[0_0_10px_hsl(275_80%_60%/0.3)] group-hover:drop-shadow-[0_0_15px_hsl(275_80%_60%/0.5)] transition-all">🐉 VaultGridex</span>
         </Link>
 
         {/* Desktop Nav */}
@@ -41,7 +41,7 @@ const Header = () => {
         {/* CTA */}
         <Link
           to="/games"
-          className="hidden lg:inline-flex items-center gap-2 rounded-lg gradient-cta px-5 py-2.5 text-sm font-semibold text-secondary-foreground transition-all hover:scale-105 hover:shadow-[0_0_25px_hsl(28_100%_55%/0.5)]"
+          className="hidden lg:inline-flex items-center gap-2 rounded-lg gradient-cta px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-all hover:scale-105 hover:shadow-[0_0_25px_hsl(275_80%_60%/0.5)]"
         >
           Play Free Now
         </Link>
@@ -79,7 +79,7 @@ const Header = () => {
           <Link
             to="/games"
             onClick={() => setMobileOpen(false)}
-            className="mt-2 rounded-lg gradient-cta px-5 py-2.5 text-center text-sm font-semibold text-secondary-foreground"
+            className="mt-2 rounded-lg gradient-cta px-5 py-2.5 text-center text-sm font-semibold text-primary-foreground"
           >
             Play Free Now
           </Link>

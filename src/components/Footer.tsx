@@ -7,7 +7,7 @@ const Footer = () => (
     <div className="container mx-auto px-4 py-12">
       <div className="grid gap-8 md:grid-cols-3 lg:grid-cols-4">
         <div>
-          <span className="text-xl font-display font-bold text-gradient"><span className="text-xl font-display font-bold text-gradient">🦊 VaultGridex</span></span>
+          <span className="text-xl font-display font-bold text-gradient">🐉 VaultGridex</span>
           <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
             Premium social casino entertainment. 100% free to play. No real money gambling. 18+ only.
           </p>
@@ -51,7 +51,7 @@ const Footer = () => (
 
       <div className="mt-10 border-t border-border/50 pt-6 text-center">
         <p className="text-xs text-muted-foreground">
-          © {new Date().getFullYear()} © {new Date().getFullYear()} VaultGridex. This website is for entertainment purposes only. No real money gambling. No prizes or items of real-world value. 18+ only. Play responsibly. is for entertainment purposes only. No real money gambling. No prizes or items of real-world value. 18+ only. Play responsibly.
+          © {new Date().getFullYear()} VaultGridex. This website is for entertainment purposes only. No real money gambling. No prizes or items of real-world value. 18+ only. Play responsibly.
         </p>
       </div>
     </div>

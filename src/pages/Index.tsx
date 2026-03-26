@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import { Shield, Smartphone, Gamepad2, Zap, CreditCard, Star, AlertTriangle } from "lucide-react";
-import foxMascot from "@/assets/fox-mascot.png";
-import foxJackpot from "@/assets/fox-jackpot.png";
+import dragonHero from "@/assets/dragon-hero.png";
+import dragonSitting from "@/assets/dragon-sitting.png";
+import dragonFlying from "@/assets/dragon-flying.png";
 import gamcareImg from "@/assets/gamcare.png";
 import gambleawareImg from "@/assets/gambleaware.png";
 import GameCard from "@/components/GameCard";
@@ -15,12 +16,12 @@ const trustBadges = [
 ];
 
 const whyPlay = [
-  { icon: Star, title: "Free Entertainment", desc: "Enjoy premium casino games with zero cost. Pure fun, no strings attached." },
-  { icon: Zap, title: "Instant Browser Play", desc: "No downloads needed. Play directly in your browser instantly." },
-  { icon: Smartphone, title: "Mobile Friendly", desc: "Optimized for all devices. Play anywhere, anytime." },
-  { icon: Gamepad2, title: "Huge Game Variety", desc: "Slots, blackjack, roulette, and more exciting games." },
-  { icon: CreditCard, title: "No Deposits Required", desc: "No credit card or payment information needed ever." },
-  { icon: Shield, title: "Smooth Experience", desc: "High-quality graphics and seamless gameplay." },
+  { icon: Star, title: "Free Entertainment", desc: "Dive into premium casino games at zero cost. Pure excitement, no strings attached." },
+  { icon: Zap, title: "Instant Browser Play", desc: "No downloads or installs. Jump straight into the action from any browser." },
+  { icon: Smartphone, title: "Mobile Friendly", desc: "Perfectly optimized for every screen size. Play on the go, anytime." },
+  { icon: Gamepad2, title: "Massive Game Library", desc: "Slots, blackjack, roulette, poker and many more thrilling titles." },
+  { icon: CreditCard, title: "No Deposits Ever", desc: "No credit card, no payments, no hidden fees. Always 100% free." },
+  { icon: Shield, title: "Stunning Visuals", desc: "High-quality graphics, smooth animations, and immersive gameplay." },
 ];
 
 const Index = () => {
@@ -72,19 +73,19 @@ const Index = () => {
                 </h1>
               </div>
               <p className="mt-6 max-w-xl text-lg text-muted-foreground leading-relaxed mx-auto lg:mx-0 sm:text-xl">
-                Enjoy premium casino-style games for entertainment only. No real money gambling. 100% free to play.
+                Step into a world of premium casino-style entertainment. No real money, no risk — just pure fun and excitement. 100% free to play.
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center lg:justify-start">
                 <Link
                   to="/games"
-                  className="rounded-xl gradient-cta px-10 py-4 text-center text-lg font-bold text-secondary-foreground transition-all hover:scale-105 hover:shadow-[0_0_40px_hsl(28_100%_55%/0.6)] animate-glow-pulse"
+                  className="rounded-xl gradient-cta px-10 py-4 text-center text-lg font-bold text-primary-foreground transition-all hover:scale-105 hover:shadow-[0_0_40px_hsl(275_80%_60%/0.6)] animate-glow-pulse"
                 >
                   Play Free Now
                 </Link>
                 <Link
                   to="/games"
-                  className="rounded-xl border-2 border-primary/40 bg-primary/5 px-10 py-4 text-center text-lg font-semibold text-primary transition-all hover:bg-primary/10 hover:border-primary/60 hover:shadow-[0_0_20px_hsl(28_100%_55%/0.2)]"
+                  className="rounded-xl border-2 border-primary/40 bg-primary/5 px-10 py-4 text-center text-lg font-semibold text-primary transition-all hover:bg-primary/10 hover:border-primary/60 hover:shadow-[0_0_20px_hsl(275_80%_60%/0.2)]"
                 >
                   Browse Games
                 </Link>
@@ -95,7 +96,7 @@ const Index = () => {
                 {trustBadges.map((badge) => (
                   <div
                     key={badge.label}
-                    className="flex items-center gap-2 rounded-full border border-primary/25 bg-primary/8 px-5 py-2.5 text-xs font-semibold text-primary backdrop-blur-sm shadow-[0_0_15px_hsl(28_100%_55%/0.1)]"
+                    className="flex items-center gap-2 rounded-full border border-primary/25 bg-primary/8 px-5 py-2.5 text-xs font-semibold text-primary backdrop-blur-sm shadow-[0_0_15px_hsl(275_80%_60%/0.1)]"
                   >
                     <badge.icon className="h-4 w-4" />
                     {badge.label}
@@ -104,17 +105,17 @@ const Index = () => {
               </div>
             </div>
 
-            {/* Right - Fox */}
+            {/* Right - Dragon */}
             <div className="relative flex-shrink-0 lg:flex-shrink-0">
-              {/* Multi-layered glow behind fox */}
+              {/* Multi-layered glow behind dragon */}
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] rounded-full bg-primary/15 blur-[80px]" />
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] h-[90%] rounded-full bg-secondary/10 blur-[60px]" />
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60%] h-[60%] rounded-full bg-accent/12 blur-[40px]" />
 
               <img
-                src={foxMascot}
-                alt="VaultGridex Mascot"
-                className="relative z-10 w-72 sm:w-80 md:w-96 lg:w-[420px] xl:w-[460px] drop-shadow-[0_10px_30px_rgba(200,100,0,0.3)] drop-shadow-[0_30px_60px_rgba(0,0,0,0.6)] -scale-x-100"
+                src={dragonHero}
+                alt="VaultGridex Dragon Mascot"
+                className="relative z-10 w-72 sm:w-80 md:w-96 lg:w-[420px] xl:w-[460px] drop-shadow-[0_10px_30px_rgba(120,50,200,0.3)] drop-shadow-[0_30px_60px_rgba(0,0,0,0.6)]"
               />
               {/* Ground shadow */}
               <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-[70%] h-8 rounded-[50%] bg-black/40 blur-2xl" />
@@ -142,7 +143,7 @@ const Index = () => {
           <div className="mt-10 text-center">
             <Link
               to="/games"
-              className="inline-flex rounded-xl gradient-cta px-8 py-3.5 font-bold text-secondary-foreground transition-all hover:scale-105 hover:shadow-[0_0_25px_hsl(28_100%_55%/0.5)]"
+              className="inline-flex rounded-xl gradient-cta px-8 py-3.5 font-bold text-primary-foreground transition-all hover:scale-105 hover:shadow-[0_0_25px_hsl(275_80%_60%/0.5)]"
             >
               View All Games
             </Link>
@@ -162,7 +163,7 @@ const Index = () => {
             {whyPlay.map((item) => (
               <div
                 key={item.title}
-                className="rounded-xl border border-border/50 gradient-card p-6 transition-all hover:border-primary/30 hover:shadow-[0_0_20px_hsl(28_100%_55%/0.1)]"
+                className="rounded-xl border border-border/50 gradient-card p-6 transition-all hover:border-primary/30 hover:shadow-[0_0_20px_hsl(275_80%_60%/0.1)]"
               >
                 <div className="inline-flex rounded-lg bg-primary/10 p-3">
                   <item.icon className="h-6 w-6 text-primary" />
@@ -175,16 +176,16 @@ const Index = () => {
         </div>
       </section>
 
-      {/* MID PAGE FEATURE */}
+      {/* MID PAGE FEATURE - Dragon Flying */}
       <section className="relative overflow-hidden py-16 lg:py-24">
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-secondary/5" />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-accent/5" />
         <div className="container relative mx-auto px-4">
           <div className="flex flex-col items-center gap-10 lg:flex-row">
             <div className="relative flex-shrink-0">
-              <div className="absolute inset-0 rounded-full bg-secondary/10 blur-[80px] scale-90" />
+              <div className="absolute inset-0 rounded-full bg-primary/10 blur-[80px] scale-90" />
               <img
-                src={foxJackpot}
-                alt="Jackpot Fox"
+                src={dragonFlying}
+                alt="Flying Dragon"
                 className="relative z-10 w-64 drop-shadow-[0_20px_40px_rgba(0,0,0,0.5)] sm:w-72 lg:w-80"
               />
             </div>
@@ -198,9 +199,41 @@ const Index = () => {
               </p>
               <Link
                 to="/games"
-                className="mt-6 inline-flex rounded-xl gradient-cta px-8 py-3.5 font-bold text-secondary-foreground transition-all hover:scale-105 hover:shadow-[0_0_25px_hsl(28_100%_55%/0.5)]"
+                className="mt-6 inline-flex rounded-xl gradient-cta px-8 py-3.5 font-bold text-primary-foreground transition-all hover:scale-105 hover:shadow-[0_0_25px_hsl(275_80%_60%/0.5)]"
               >
                 Start Playing Free
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SECOND FEATURE - Dragon Sitting */}
+      <section className="relative overflow-hidden py-16 lg:py-24">
+        <div className="absolute inset-0 bg-gradient-to-l from-primary/5 via-transparent to-secondary/5" />
+        <div className="container relative mx-auto px-4">
+          <div className="flex flex-col items-center gap-10 lg:flex-row-reverse">
+            <div className="relative flex-shrink-0">
+              <div className="absolute inset-0 rounded-full bg-accent/10 blur-[80px] scale-90" />
+              <img
+                src={dragonSitting}
+                alt="Dragon with coins and cards"
+                className="relative z-10 w-64 drop-shadow-[0_20px_40px_rgba(0,0,0,0.5)] sm:w-72 lg:w-80"
+              />
+            </div>
+            <div className="flex-1 text-center lg:text-left">
+              <h2 className="text-3xl font-display font-bold text-foreground lg:text-4xl">
+                Your Lucky{" "}
+                <span className="text-gradient">Companion</span>
+              </h2>
+              <p className="mt-4 max-w-lg text-muted-foreground leading-relaxed mx-auto lg:mx-0">
+                Meet your royal dragon guide! Explore a kingdom of slots, card games, and table classics. Every game is crafted for maximum enjoyment with beautiful visuals and smooth gameplay. No real money needed — just endless entertainment.
+              </p>
+              <Link
+                to="/games"
+                className="mt-6 inline-flex rounded-xl gradient-cta px-8 py-3.5 font-bold text-primary-foreground transition-all hover:scale-105 hover:shadow-[0_0_25px_hsl(275_80%_60%/0.5)]"
+              >
+                Explore Games
               </Link>
             </div>
           </div>
@@ -214,7 +247,7 @@ const Index = () => {
             Responsible <span className="text-gradient">Gaming</span>
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground leading-relaxed">
-            VaultGridex is a social casino entertainment platform for users aged 18 and over. This is not real money gambling. There are no prizes or items of real-world value. Virtual coins and credits are for entertainment purposes only and cannot be exchanged for real money. for users aged 18 and over. This is not real money gambling. There are no prizes or items of real-world value. Virtual coins and credits are for entertainment purposes only and cannot be exchanged for real money. entertainment platform for users aged 18 and over. This is not real money gambling. There are no prizes or items of real-world value. Virtual coins and credits are for entertainment purposes only and cannot be exchanged for real money.
+            VaultGridex is a social casino entertainment platform for users aged 18 and over. This is not real money gambling. There are no prizes or items of real-world value. Virtual coins and credits are for entertainment purposes only and cannot be exchanged for real money.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-6">
             {["18+ Only", "No Real Money", "Entertainment Only", "No Prizes"].map((text) => (

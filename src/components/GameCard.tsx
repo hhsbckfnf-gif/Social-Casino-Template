@@ -19,7 +19,7 @@ const GameCard = ({ game, showPlayButton = false }: GameCardProps) => (
       <div className="game-card-overlay flex items-center justify-center">
         <Link
           to={`/play/${game.id}`}
-          className="rounded-lg gradient-cta px-6 py-3 text-sm font-bold text-secondary-foreground transition-all hover:scale-110 hover:shadow-[0_0_30px_hsl(28_100%_55%/0.6)]"
+          className="rounded-lg gradient-cta px-6 py-3 text-sm font-bold text-primary-foreground transition-all hover:scale-110 hover:shadow-[0_0_30px_hsl(275_80%_60%/0.6)]"
         >
           Play Now
         </Link>
@@ -32,7 +32,7 @@ const GameCard = ({ game, showPlayButton = false }: GameCardProps) => (
       {showPlayButton && (
         <Link
           to={`/play/${game.id}`}
-          className="mt-3 inline-flex w-full items-center justify-center rounded-lg gradient-cta px-4 py-2 text-sm font-semibold text-secondary-foreground transition-all hover:scale-[1.02] hover:shadow-[0_0_20px_hsl(28_100%_55%/0.4)]"
+          className="mt-3 inline-flex w-full items-center justify-center rounded-lg gradient-cta px-4 py-2 text-sm font-semibold text-primary-foreground transition-all hover:scale-[1.02] hover:shadow-[0_0_20px_hsl(275_80%_60%/0.4)]"
         >
           Play Now
         </Link>
