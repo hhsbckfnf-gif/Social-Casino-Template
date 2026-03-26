@@ -6,51 +6,51 @@
 
 @layer base {
   :root {
-    --background: 20 10% 7%;
-    --foreground: 40 20% 95%;
+    --background: 260 20% 6%;
+    --foreground: 270 20% 95%;
 
-    --card: 20 12% 10%;
-    --card-foreground: 40 20% 95%;
+    --card: 260 18% 10%;
+    --card-foreground: 270 20% 95%;
 
-    --popover: 20 12% 10%;
-    --popover-foreground: 40 20% 95%;
+    --popover: 260 18% 10%;
+    --popover-foreground: 270 20% 95%;
 
-    --primary: 28 100% 55%;
+    --primary: 275 80% 60%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 45 100% 55%;
-    --secondary-foreground: 20 10% 7%;
+    --secondary-foreground: 260 20% 6%;
 
-    --muted: 20 10% 15%;
-    --muted-foreground: 30 10% 55%;
+    --muted: 260 15% 15%;
+    --muted-foreground: 270 10% 55%;
 
-    --accent: 35 100% 50%;
+    --accent: 300 70% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 30 15% 18%;
-    --input: 30 15% 18%;
-    --ring: 28 100% 55%;
+    --border: 270 15% 18%;
+    --input: 270 15% 18%;
+    --ring: 275 80% 60%;
 
     --radius: 0.75rem;
 
-    --glow-orange: 0 0 30px hsl(28 100% 55% / 0.4);
-    --glow-yellow: 0 0 30px hsl(45 100% 55% / 0.3);
-    --gradient-hero: linear-gradient(160deg, hsl(20 10% 4%) 0%, hsl(20 30% 8%) 25%, hsl(28 50% 14%) 45%, hsl(30 40% 10%) 65%, hsl(20 15% 6%) 85%, hsl(20 10% 7%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(20 12% 12%) 0%, hsl(20 12% 8%) 100%);
-    --gradient-cta: linear-gradient(135deg, hsl(28 100% 55%) 0%, hsl(40 100% 50%) 100%);
-    --gradient-cta-hover: linear-gradient(135deg, hsl(28 100% 60%) 0%, hsl(45 100% 55%) 100%);
+    --glow-purple: 0 0 30px hsl(275 80% 60% / 0.4);
+    --glow-gold: 0 0 30px hsl(45 100% 55% / 0.3);
+    --gradient-hero: linear-gradient(160deg, hsl(260 25% 4%) 0%, hsl(270 30% 8%) 25%, hsl(280 40% 14%) 45%, hsl(265 35% 10%) 65%, hsl(250 20% 6%) 85%, hsl(260 20% 6%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(260 18% 12%) 0%, hsl(260 18% 8%) 100%);
+    --gradient-cta: linear-gradient(135deg, hsl(275 80% 55%) 0%, hsl(300 70% 55%) 100%);
+    --gradient-cta-hover: linear-gradient(135deg, hsl(275 80% 65%) 0%, hsl(300 70% 60%) 100%);
 
-    --sidebar-background: 20 10% 7%;
-    --sidebar-foreground: 40 20% 95%;
-    --sidebar-primary: 28 100% 55%;
+    --sidebar-background: 260 20% 6%;
+    --sidebar-foreground: 270 20% 95%;
+    --sidebar-primary: 275 80% 60%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 20 12% 15%;
-    --sidebar-accent-foreground: 40 20% 95%;
-    --sidebar-border: 30 15% 18%;
-    --sidebar-ring: 28 100% 55%;
+    --sidebar-accent: 260 18% 15%;
+    --sidebar-accent-foreground: 270 20% 95%;
+    --sidebar-border: 270 15% 18%;
+    --sidebar-ring: 275 80% 60%;
   }
 }
 
@@ -69,16 +69,16 @@
 }
 
 @layer components {
-  .glow-orange {
-    box-shadow: var(--glow-orange);
+  .glow-purple {
+    box-shadow: var(--glow-purple);
   }
 
-  .glow-yellow {
-    box-shadow: var(--glow-yellow);
+  .glow-gold {
+    box-shadow: var(--glow-gold);
   }
 
   .glow-text {
-    text-shadow: 0 0 20px hsl(28 100% 55% / 0.5), 0 0 40px hsl(28 100% 55% / 0.2);
+    text-shadow: 0 0 20px hsl(275 80% 60% / 0.5), 0 0 40px hsl(275 80% 60% / 0.2);
   }
 
   .gradient-hero {
@@ -91,10 +91,10 @@
     position: absolute;
     inset: 0;
     background:
-      radial-gradient(ellipse 80% 60% at 65% 40%, hsl(28 100% 50% / 0.18) 0%, transparent 70%),
-      radial-gradient(ellipse 60% 80% at 20% 70%, hsl(35 100% 45% / 0.1) 0%, transparent 60%),
-      radial-gradient(ellipse 50% 50% at 80% 80%, hsl(45 100% 55% / 0.08) 0%, transparent 50%),
-      radial-gradient(ellipse 40% 40% at 10% 20%, hsl(28 80% 40% / 0.06) 0%, transparent 50%);
+      radial-gradient(ellipse 80% 60% at 65% 40%, hsl(275 80% 50% / 0.18) 0%, transparent 70%),
+      radial-gradient(ellipse 60% 80% at 20% 70%, hsl(300 70% 45% / 0.1) 0%, transparent 60%),
+      radial-gradient(ellipse 50% 50% at 80% 80%, hsl(250 60% 55% / 0.08) 0%, transparent 50%),
+      radial-gradient(ellipse 40% 40% at 10% 20%, hsl(280 60% 40% / 0.06) 0%, transparent 50%);
     pointer-events: none;
   }
 
@@ -105,7 +105,7 @@
     left: 0;
     right: 0;
     height: 120px;
-    background: linear-gradient(to bottom, transparent, hsl(20 10% 7%));
+    background: linear-gradient(to bottom, transparent, hsl(260 20% 6%));
     pointer-events: none;
   }
 
@@ -127,9 +127,9 @@
 
   .hero-glow {
     background:
-      radial-gradient(ellipse 90% 70% at 70% 45%, hsl(28 100% 55% / 0.2) 0%, transparent 65%),
-      radial-gradient(ellipse 70% 60% at 30% 75%, hsl(45 100% 55% / 0.12) 0%, transparent 55%),
-      radial-gradient(ellipse 50% 50% at 50% 20%, hsl(30 80% 40% / 0.08) 0%, transparent 50%);
+      radial-gradient(ellipse 90% 70% at 70% 45%, hsl(275 80% 55% / 0.2) 0%, transparent 65%),
+      radial-gradient(ellipse 70% 60% at 30% 75%, hsl(300 70% 55% / 0.12) 0%, transparent 55%),
+      radial-gradient(ellipse 50% 50% at 50% 20%, hsl(250 60% 40% / 0.08) 0%, transparent 50%);
     pointer-events: none;
   }
 
@@ -157,7 +157,7 @@
     position: absolute;
     width: 200px;
     height: 1px;
-    background: linear-gradient(90deg, transparent, hsl(28 100% 55% / 0.3), transparent);
+    background: linear-gradient(90deg, transparent, hsl(275 80% 60% / 0.3), transparent);
     transform: rotate(-25deg);
     animation: streak-move 8s linear infinite;
     pointer-events: none;
@@ -171,13 +171,13 @@
   }
 
   .section-glow {
-    background: radial-gradient(ellipse at 50% 0%, hsl(28 100% 55% / 0.06) 0%, transparent 60%);
+    background: radial-gradient(ellipse at 50% 0%, hsl(275 80% 55% / 0.06) 0%, transparent 60%);
   }
 }
 
 @layer utilities {
   .text-gradient {
     @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(135deg, hsl(28 100% 55%), hsl(45 100% 55%));
+    background-image: linear-gradient(135deg, hsl(275 80% 60%), hsl(45 100% 55%));
   }
 }

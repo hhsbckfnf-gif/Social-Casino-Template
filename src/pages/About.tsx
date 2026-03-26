@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { toast } from "sonner";
-import foxSlots from "@/assets/fox-slots.png";
+import dragonWinking from "@/assets/dragon-winking.png";
 
 const About = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -24,7 +24,7 @@ const About = () => {
           <div className="flex flex-col items-center gap-8 lg:flex-row">
             <div className="relative flex-shrink-0">
               <div className="absolute inset-0 rounded-full bg-primary/10 blur-[60px] scale-90" />
-              <img src={foxSlots} alt="VaultGridex" className="relative z-10 w-48 drop-shadow-[0_10px_30px_rgba(0,0,0,0.5)]" />
+              <img src={dragonWinking} alt="VaultGridex Dragon" className="relative z-10 w-48 drop-shadow-[0_10px_30px_rgba(0,0,0,0.5)]" />
             </div>
             <div>
               <h2 className="text-2xl font-display font-bold text-foreground">Our Story</h2>
@@ -78,7 +78,7 @@ const About = () => {
               />
               <button
                 type="submit"
-                className="rounded-lg gradient-cta px-8 py-3 font-semibold text-secondary-foreground transition-all hover:scale-105 hover:shadow-[0_0_20px_hsl(28_100%_55%/0.4)]"
+                className="rounded-lg gradient-cta px-8 py-3 font-semibold text-primary-foreground transition-all hover:scale-105 hover:shadow-[0_0_20px_hsl(275_80%_60%/0.4)]"
               >
                 Send Message
               </button>
