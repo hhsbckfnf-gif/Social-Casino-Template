@@ -6,7 +6,7 @@ const Privacy = () => (
         <p><strong className="text-foreground">Last updated:</strong> March 2026</p>
 
         <h2 className="text-xl font-display font-semibold text-foreground">1. Introduction</h2>
-        <p>Trend Lorexa ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our free social casino games. Trend Lorexa is a social casino platform offering free-to-play entertainment only. No real money gambling takes place on our platform.</p>
+        <p>VaultGridex ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our free social casino games. VaultGridex is a social casino platform offering free-to-play entertainment only. No real money gambling takes place on our platform.</p>
 
         <h2 className="text-xl font-display font-semibold text-foreground">2. Information We Collect</h2>
         <p>We may collect information you provide directly, such as your name and email address when you contact us. We also automatically collect certain information including your IP address, browser type, device information, and usage data through cookies and similar technologies.</p>
