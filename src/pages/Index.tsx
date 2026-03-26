@@ -113,7 +113,7 @@ const Index = () => {
 
               <img
                 src={foxMascot}
-                alt="Trend Lorexa Mascot"
+                alt="VaultGridex Mascot"
                 className="relative z-10 w-72 sm:w-80 md:w-96 lg:w-[420px] xl:w-[460px] drop-shadow-[0_10px_30px_rgba(200,100,0,0.3)] drop-shadow-[0_30px_60px_rgba(0,0,0,0.6)] -scale-x-100"
               />
               {/* Ground shadow */}
@@ -214,7 +214,7 @@ const Index = () => {
             Responsible <span className="text-gradient">Gaming</span>
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground leading-relaxed">
-            Trend Lorexa is a social casino entertainment platform for users aged 18 and over. This is not real money gambling. There are no prizes or items of real-world value. Virtual coins and credits are for entertainment purposes only and cannot be exchanged for real money. for users aged 18 and over. This is not real money gambling. There are no prizes or items of real-world value. Virtual coins and credits are for entertainment purposes only and cannot be exchanged for real money. entertainment platform for users aged 18 and over. This is not real money gambling. There are no prizes or items of real-world value. Virtual coins and credits are for entertainment purposes only and cannot be exchanged for real money.
+            VaultGridex is a social casino entertainment platform for users aged 18 and over. This is not real money gambling. There are no prizes or items of real-world value. Virtual coins and credits are for entertainment purposes only and cannot be exchanged for real money. for users aged 18 and over. This is not real money gambling. There are no prizes or items of real-world value. Virtual coins and credits are for entertainment purposes only and cannot be exchanged for real money. entertainment platform for users aged 18 and over. This is not real money gambling. There are no prizes or items of real-world value. Virtual coins and credits are for entertainment purposes only and cannot be exchanged for real money.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-6">
             {["18+ Only", "No Real Money", "Entertainment Only", "No Prizes"].map((text) => (
