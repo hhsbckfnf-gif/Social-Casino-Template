@@ -16,7 +16,7 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-display font-bold text-foreground lg:text-5xl">
-            About <span className="text-gradient">VaultGridex</span>
+            About <span className="text-gradient">Vault Nexora</span>
           </h1>
         </div>
 
@@ -24,12 +24,12 @@ const About = () => {
           <div className="flex flex-col items-center gap-8 lg:flex-row">
             <div className="relative flex-shrink-0">
               <div className="absolute inset-0 rounded-full bg-primary/10 blur-[60px] scale-90" />
-              <img src={dragonWinking} alt="VaultGridex Dragon" className="relative z-10 w-48 drop-shadow-[0_10px_30px_rgba(0,0,0,0.5)]" />
+              <img src={dragonWinking} alt="Vault Nexora Mascot" className="relative z-10 w-48 drop-shadow-[0_10px_30px_rgba(0,0,0,0.5)]" />
             </div>
             <div>
               <h2 className="text-2xl font-display font-bold text-foreground">Our Story</h2>
               <p className="mt-3 text-muted-foreground leading-relaxed">
-                VaultGridex was created with one mission: to bring the excitement of casino-style games to everyone — completely free. We believe entertainment should be accessible, safe, and fun. Our platform offers a premium gaming experience without any financial risk.
+                Vault Nexora was built on a single belief: great entertainment should be free and accessible to everyone. We set out to create a premium social casino experience that captures the thrill of the casino floor — without any financial stakes. Every game, every feature, every detail reflects our passion for delivering world-class fun.
               </p>
             </div>
           </div>
@@ -37,14 +37,14 @@ const About = () => {
           <div className="rounded-xl border border-border/50 gradient-card p-6">
             <h2 className="text-xl font-display font-bold text-foreground">Our Mission</h2>
             <p className="mt-3 text-muted-foreground leading-relaxed">
-              We are committed to providing high-quality, free social casino entertainment. Our games use virtual coins and credits that have no real-world monetary value. We promote responsible gaming and ensure all users are 18 or older.
+              Our mission at Vault Nexora is simple: deliver high-quality, free social casino entertainment that players can enjoy without risk. All in-game currencies are virtual and hold no real-world monetary value. We champion responsible gaming and welcome only users aged 18 and above.
             </p>
           </div>
 
           <div className="rounded-xl border border-border/50 gradient-card p-6">
             <h2 className="text-xl font-display font-bold text-foreground">Responsible Gaming Commitment</h2>
             <p className="mt-3 text-muted-foreground leading-relaxed">
-              VaultGridex is strictly a social casino. There is no real money gambling, no prizes of real-world value, and no opportunity to win or lose money. We are dedicated to providing a safe, enjoyable entertainment environment for all our users.
+              Vault Nexora is strictly a social casino entertainment platform. There is no real money gambling, no prizes of real-world value, and no opportunity to win or lose money. We are dedicated to maintaining a safe, transparent, and enjoyable environment for every player who walks through our virtual doors.
             </p>
           </div>
 

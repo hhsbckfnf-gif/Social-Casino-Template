@@ -20,7 +20,7 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between px-4 py-3 lg:py-4">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 group">
-          <span className="text-2xl font-display font-extrabold text-gradient drop-shadow-[0_0_10px_hsl(275_80%_60%/0.3)] group-hover:drop-shadow-[0_0_15px_hsl(275_80%_60%/0.5)] transition-all">🐉 VaultGridex</span>
+          <span className="text-2xl font-display font-extrabold text-gradient drop-shadow-[0_0_10px_hsl(275_80%_60%/0.3)] group-hover:drop-shadow-[0_0_15px_hsl(275_80%_60%/0.5)] transition-all">✦ Vault Nexora</span>
         </Link>
 
         {/* Desktop Nav */}

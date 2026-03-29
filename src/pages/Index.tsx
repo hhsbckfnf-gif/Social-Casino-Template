@@ -16,12 +16,12 @@ const trustBadges = [
 ];
 
 const whyPlay = [
-  { icon: Star, title: "Free Entertainment", desc: "Dive into premium casino games at zero cost. Pure excitement, no strings attached." },
-  { icon: Zap, title: "Instant Browser Play", desc: "No downloads or installs. Jump straight into the action from any browser." },
-  { icon: Smartphone, title: "Mobile Friendly", desc: "Perfectly optimized for every screen size. Play on the go, anytime." },
-  { icon: Gamepad2, title: "Massive Game Library", desc: "Slots, blackjack, roulette, poker and many more thrilling titles." },
-  { icon: CreditCard, title: "No Deposits Ever", desc: "No credit card, no payments, no hidden fees. Always 100% free." },
-  { icon: Shield, title: "Stunning Visuals", desc: "High-quality graphics, smooth animations, and immersive gameplay." },
+  { icon: Star, title: "Always Free", desc: "Every game on Vault Nexora is 100% free — no fees, no subscriptions, no surprises." },
+  { icon: Zap, title: "Play Instantly", desc: "Launch any game directly in your browser. No downloads, no waiting, just action." },
+  { icon: Smartphone, title: "Built for Mobile", desc: "Seamlessly optimized across phones, tablets, and desktops for a smooth experience anywhere." },
+  { icon: Gamepad2, title: "Rich Game Variety", desc: "From classic slots to table games — a curated library crafted for every type of player." },
+  { icon: CreditCard, title: "Zero Payments", desc: "No credit card required. No hidden fees. Vault Nexora is entertainment, completely on us." },
+  { icon: Shield, title: "Cinematic Quality", desc: "Immersive visuals, fluid animations, and polished game design in every title." },
 ];
 
 const Index = () => {
@@ -67,13 +67,12 @@ const Index = () => {
               <div className="relative inline-block">
                 <div className="absolute -inset-x-8 -inset-y-4 bg-primary/5 blur-[60px] rounded-full" />
                 <h1 className="relative text-4xl font-display font-extrabold leading-[1.1] text-foreground sm:text-5xl lg:text-6xl xl:text-7xl glow-text">
-                  Play Free{" "}
-                  <span className="text-gradient">Social Casino</span>{" "}
-                  Games
+                  Discover the World of{" "}
+                  <span className="text-gradient">Vault Nexora</span>
                 </h1>
               </div>
               <p className="mt-6 max-w-xl text-lg text-muted-foreground leading-relaxed mx-auto lg:mx-0 sm:text-xl">
-                Step into a world of premium casino-style entertainment. No real money, no risk — just pure fun and excitement. 100% free to play.
+                Explore a universe of free casino-style games — no deposits, no risk, just pure non-stop entertainment. Where every spin tells a story.
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center lg:justify-start">
@@ -114,7 +113,7 @@ const Index = () => {
 
               <img
                 src={dragonHero}
-                alt="VaultGridex Dragon Mascot"
+                alt="Vault Nexora Mascot"
                 className="relative z-10 w-72 sm:w-80 md:w-96 lg:w-[420px] xl:w-[460px] drop-shadow-[0_10px_30px_rgba(120,50,200,0.3)] drop-shadow-[0_30px_60px_rgba(0,0,0,0.6)]"
               />
               {/* Ground shadow */}
@@ -133,7 +132,7 @@ const Index = () => {
             <h2 className="text-3xl font-display font-bold text-foreground lg:text-4xl">
               Featured <span className="text-gradient">Games</span>
             </h2>
-            <p className="mt-3 text-muted-foreground">Our most popular free-to-play casino games</p>
+            <p className="mt-3 text-muted-foreground">Handpicked favorites from the Vault Nexora library — free to play, no sign-up needed</p>
           </div>
           <div className="grid grid-cols-2 gap-4 sm:gap-6 md:grid-cols-3 lg:grid-cols-4">
             {featured.map((game) => (
@@ -156,8 +155,9 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-display font-bold text-foreground lg:text-4xl">
-              Why Play <span className="text-gradient">Here</span>
+              Why Choose <span className="text-gradient">Vault Nexora</span>
             </h2>
+            <p className="mt-3 text-muted-foreground">Everything you need for premium social casino entertainment</p>
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {whyPlay.map((item) => (
@@ -191,11 +191,11 @@ const Index = () => {
             </div>
             <div className="flex-1 text-center lg:text-left">
               <h2 className="text-3xl font-display font-bold text-foreground lg:text-4xl">
-                Free Entertainment,{" "}
-                <span className="text-gradient">Endless Fun</span>
+                Premium Entertainment,{" "}
+                <span className="text-gradient">Zero Cost</span>
               </h2>
               <p className="mt-4 max-w-lg text-muted-foreground leading-relaxed mx-auto lg:mx-0">
-                Experience the thrill of casino-style games without spending a penny. Our social casino platform offers premium entertainment with stunning graphics, exciting gameplay, and a huge variety of games — all completely free. No deposits, no purchases, just pure fun.
+                Vault Nexora delivers the excitement of casino-style gaming without a single penny spent. Stunning graphics, smooth gameplay, and a vast selection of titles — all completely free. No deposits, no purchases, just unlimited entertainment at your fingertips.
               </p>
               <Link
                 to="/games"
@@ -223,11 +223,11 @@ const Index = () => {
             </div>
             <div className="flex-1 text-center lg:text-left">
               <h2 className="text-3xl font-display font-bold text-foreground lg:text-4xl">
-                Your Lucky{" "}
-                <span className="text-gradient">Companion</span>
+                Your Ultimate{" "}
+                <span className="text-gradient">Gaming Guide</span>
               </h2>
               <p className="mt-4 max-w-lg text-muted-foreground leading-relaxed mx-auto lg:mx-0">
-                Meet your royal dragon guide! Explore a kingdom of slots, card games, and table classics. Every game is crafted for maximum enjoyment with beautiful visuals and smooth gameplay. No real money needed — just endless entertainment.
+                Let our guardian lead you through a realm of slots, card games, and table classics. Each title at Vault Nexora is crafted for maximum enjoyment — rich visuals, fluid controls, and immersive themes. No real money, just unforgettable entertainment.
               </p>
               <Link
                 to="/games"
@@ -247,7 +247,7 @@ const Index = () => {
             Responsible <span className="text-gradient">Gaming</span>
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground leading-relaxed">
-            VaultGridex is a social casino entertainment platform for users aged 18 and over. This is not real money gambling. There are no prizes or items of real-world value. Virtual coins and credits are for entertainment purposes only and cannot be exchanged for real money.
+            Vault Nexora is a social casino entertainment platform for users aged 18 and over. This is not real money gambling. There are no prizes or items of real-world value. Virtual coins and credits are for entertainment purposes only and cannot be exchanged for real money.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-6">
             {["18+ Only", "No Real Money", "Entertainment Only", "No Prizes"].map((text) => (
