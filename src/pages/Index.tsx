@@ -11,16 +11,16 @@ import { getFeaturedGames } from "@/data/games";
 const trustBadges = [
   { icon: Shield, label: "18+" },
   { icon: Gamepad2, label: "Free Play" },
-  { icon: CreditCard, label: "No Real Money" },
+  { icon: CreditCard, label: "No Wagering" },
   { icon: AlertTriangle, label: "Play Responsibly" },
 ];
 
 const whyPlay = [
-  { icon: Star, title: "Always Free", desc: "Every game on Vault Nexora is 100% free — no fees, no subscriptions, no surprises." },
+  { icon: Star, title: "Always Free", desc: "Every game on Social Casino Hub is 100% free - no fees, no deposits, no surprises." },
   { icon: Zap, title: "Play Instantly", desc: "Launch any game directly in your browser. No downloads, no waiting, just action." },
   { icon: Smartphone, title: "Built for Mobile", desc: "Seamlessly optimized across phones, tablets, and desktops for a smooth experience anywhere." },
-  { icon: Gamepad2, title: "Rich Game Variety", desc: "From classic slots to table games — a curated library crafted for every type of player." },
-  { icon: CreditCard, title: "Zero Payments", desc: "No credit card required. No hidden fees. Vault Nexora is entertainment, completely on us." },
+  { icon: Gamepad2, title: "Rich Game Variety", desc: "From social slots to table-style classics - a curated library crafted for every type of player." },
+  { icon: CreditCard, title: "Zero Payments", desc: "No credit card required. No deposits or withdrawals. Social Casino Hub is entertainment, completely on us." },
   { icon: Shield, title: "Cinematic Quality", desc: "Immersive visuals, fluid animations, and polished game design in every title." },
 ];
 
@@ -68,11 +68,11 @@ const Index = () => {
                 <div className="absolute -inset-x-8 -inset-y-4 bg-primary/5 blur-[60px] rounded-full" />
                 <h1 className="relative text-4xl font-display font-extrabold leading-[1.1] text-foreground sm:text-5xl lg:text-6xl xl:text-7xl glow-text">
                   Discover the World of{" "}
-                  <span className="text-gradient">Vault Nexora</span>
+                  <span className="text-gradient">Social Casino Hub</span>
                 </h1>
               </div>
               <p className="mt-6 max-w-xl text-lg text-muted-foreground leading-relaxed mx-auto lg:mx-0 sm:text-xl">
-                Explore a universe of free casino-style games — no deposits, no risk, just pure non-stop entertainment. Where every spin tells a story.
+                Explore free-to-play social casino games - no deposits, no withdrawals, no cash prizes, just pure non-stop entertainment.
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center lg:justify-start">
@@ -113,7 +113,7 @@ const Index = () => {
 
               <img
                 src={dragonHero}
-                alt="Vault Nexora Mascot"
+                alt="Social Casino Hub Mascot"
                 className="relative z-10 w-72 sm:w-80 md:w-96 lg:w-[420px] xl:w-[460px] drop-shadow-[0_10px_30px_rgba(120,50,200,0.3)] drop-shadow-[0_30px_60px_rgba(0,0,0,0.6)]"
               />
               {/* Ground shadow */}
@@ -132,7 +132,7 @@ const Index = () => {
             <h2 className="text-3xl font-display font-bold text-foreground lg:text-4xl">
               Featured <span className="text-gradient">Games</span>
             </h2>
-            <p className="mt-3 text-muted-foreground">Handpicked favorites from the Vault Nexora library — free to play, no sign-up needed</p>
+            <p className="mt-3 text-muted-foreground">Handpicked favorites from the Social Casino Hub library - free to play, no sign-up needed</p>
           </div>
           <div className="grid grid-cols-2 gap-4 sm:gap-6 md:grid-cols-3 lg:grid-cols-4">
             {featured.map((game) => (
@@ -155,7 +155,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-display font-bold text-foreground lg:text-4xl">
-              Why Choose <span className="text-gradient">Vault Nexora</span>
+              Why Choose <span className="text-gradient">Social Casino Hub</span>
             </h2>
             <p className="mt-3 text-muted-foreground">Everything you need for premium social casino entertainment</p>
           </div>
@@ -195,7 +195,7 @@ const Index = () => {
                 <span className="text-gradient">Zero Cost</span>
               </h2>
               <p className="mt-4 max-w-lg text-muted-foreground leading-relaxed mx-auto lg:mx-0">
-                Vault Nexora delivers the excitement of casino-style gaming without a single penny spent. Stunning graphics, smooth gameplay, and a vast selection of titles — all completely free. No deposits, no purchases, just unlimited entertainment at your fingertips.
+                Social Casino Hub delivers casino-style fun without real-money wagering. Stunning graphics, smooth gameplay, and a vast selection of titles - all free to play. No deposits, no withdrawals, just unlimited entertainment at your fingertips.
               </p>
               <Link
                 to="/games"
@@ -227,7 +227,7 @@ const Index = () => {
                 <span className="text-gradient">Gaming Guide</span>
               </h2>
               <p className="mt-4 max-w-lg text-muted-foreground leading-relaxed mx-auto lg:mx-0">
-                Let our guardian lead you through a realm of slots, card games, and table classics. Each title at Vault Nexora is crafted for maximum enjoyment — rich visuals, fluid controls, and immersive themes. No real money, just unforgettable entertainment.
+                Let our guardian lead you through a realm of social slots, card games, and table classics. Each title at Social Casino Hub is crafted for maximum enjoyment - rich visuals, fluid controls, and immersive themes. No real-money wagering, just unforgettable entertainment.
               </p>
               <Link
                 to="/games"
@@ -247,10 +247,10 @@ const Index = () => {
             Responsible <span className="text-gradient">Gaming</span>
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground leading-relaxed">
-            Vault Nexora is a social casino entertainment platform for users aged 18 and over. This is not real money gambling. There are no prizes or items of real-world value. Virtual coins and credits are for entertainment purposes only and cannot be exchanged for real money.
+            Social Casino Hub is a free-to-play social casino entertainment platform for users aged 18 and over. There is no real-money wagering, no deposits, no withdrawals, and no cash prizes. Virtual coins and credits are for entertainment purposes only and cannot be exchanged for money or items of value.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-6">
-            {["18+ Only", "No Real Money", "Entertainment Only", "No Prizes"].map((text) => (
+            {["18+ Only", "No Wagering", "Entertainment Only", "No Cash Prizes"].map((text) => (
               <span key={text} className="rounded-full border border-primary/20 bg-primary/5 px-5 py-2 text-sm font-medium text-primary">
                 {text}
               </span>

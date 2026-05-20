@@ -7,9 +7,9 @@ const Footer = () => (
     <div className="container mx-auto px-4 py-12">
       <div className="grid gap-8 md:grid-cols-3 lg:grid-cols-4">
         <div>
-          <span className="text-xl font-display font-bold text-gradient">✦ Vault Nexora</span>
+          <span className="text-xl font-display font-bold text-gradient">Social Casino Hub</span>
           <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
-            Vault Nexora brings you the thrill of casino-style games — completely free, always entertaining, and designed for players 18+.
+            Social Casino Hub brings you free-to-play social casino games - always entertaining and designed for players 18+.
           </p>
         </div>
         <div>
@@ -51,7 +51,7 @@ const Footer = () => (
 
       <div className="mt-10 border-t border-border/50 pt-6 text-center">
         <p className="text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Vault Nexora. This website is for entertainment purposes only. No real money gambling. No prizes or items of real-world value. 18+ only. Play responsibly.
+          &copy; {new Date().getFullYear()} Social Casino Hub. This website is for entertainment purposes only. No real-money wagering, deposits, withdrawals, or cash prizes. 18+ only. Play responsibly.
         </p>
       </div>
     </div>

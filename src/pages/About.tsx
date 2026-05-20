@@ -16,7 +16,7 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-display font-bold text-foreground lg:text-5xl">
-            About <span className="text-gradient">Vault Nexora</span>
+            About <span className="text-gradient">Social Casino Hub</span>
           </h1>
         </div>
 
@@ -24,12 +24,12 @@ const About = () => {
           <div className="flex flex-col items-center gap-8 lg:flex-row">
             <div className="relative flex-shrink-0">
               <div className="absolute inset-0 rounded-full bg-primary/10 blur-[60px] scale-90" />
-              <img src={dragonWinking} alt="Vault Nexora Mascot" className="relative z-10 w-48 drop-shadow-[0_10px_30px_rgba(0,0,0,0.5)]" />
+              <img src={dragonWinking} alt="Social Casino Hub Mascot" className="relative z-10 w-48 drop-shadow-[0_10px_30px_rgba(0,0,0,0.5)]" />
             </div>
             <div>
               <h2 className="text-2xl font-display font-bold text-foreground">Our Story</h2>
               <p className="mt-3 text-muted-foreground leading-relaxed">
-                Vault Nexora was built on a single belief: great entertainment should be free and accessible to everyone. We set out to create a premium social casino experience that captures the thrill of the casino floor — without any financial stakes. Every game, every feature, every detail reflects our passion for delivering world-class fun.
+                Social Casino Hub was built on a single belief: great entertainment should be free and accessible to everyone. We set out to create a premium social casino experience that captures casino-style excitement without financial stakes. Every game, every feature, every detail reflects our passion for delivering world-class fun.
               </p>
             </div>
           </div>
@@ -37,14 +37,14 @@ const About = () => {
           <div className="rounded-xl border border-border/50 gradient-card p-6">
             <h2 className="text-xl font-display font-bold text-foreground">Our Mission</h2>
             <p className="mt-3 text-muted-foreground leading-relaxed">
-              Our mission at Vault Nexora is simple: deliver high-quality, free social casino entertainment that players can enjoy without risk. All in-game currencies are virtual and hold no real-world monetary value. We champion responsible gaming and welcome only users aged 18 and above.
+              Our mission at Social Casino Hub is simple: deliver high-quality, free-to-play social casino entertainment that players can enjoy without deposits, withdrawals, or real-money wagering. All in-game currencies are virtual and hold no real-world monetary value. We champion responsible play and welcome only users aged 18 and above.
             </p>
           </div>
 
           <div className="rounded-xl border border-border/50 gradient-card p-6">
             <h2 className="text-xl font-display font-bold text-foreground">Responsible Gaming Commitment</h2>
             <p className="mt-3 text-muted-foreground leading-relaxed">
-              Vault Nexora is strictly a social casino entertainment platform. There is no real money gambling, no prizes of real-world value, and no opportunity to win or lose money. We are dedicated to maintaining a safe, transparent, and enjoyable environment for every player who walks through our virtual doors.
+              Social Casino Hub is strictly a free-to-play social casino entertainment platform. There is no real-money wagering, no deposits, no withdrawals, and no cash prizes. We are dedicated to maintaining a safe, transparent, and enjoyable environment for every player who walks through our virtual doors.
             </p>
           </div>
 

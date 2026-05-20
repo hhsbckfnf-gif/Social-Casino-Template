@@ -16,7 +16,7 @@ const Games = () => {
             <h1 className="text-4xl font-display font-bold text-foreground lg:text-5xl">
               Our <span className="text-gradient">Games</span>
             </h1>
-            <p className="mt-3 text-muted-foreground">All games are 100% free to play. No real money. No deposits.</p>
+            <p className="mt-3 text-muted-foreground">All games are 100% free to play. No real-money wagering, deposits, withdrawals, or cash prizes.</p>
           </div>
 
           {/* Category filter */}
